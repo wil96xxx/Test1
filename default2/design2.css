@@ -1,0 +1,246 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.ciel{
+    height:300px;
+    width:100%;
+}
+label.logo{
+	color: #CC9900;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 30px;
+	 font-weight: bold;
+}
+img{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+ /*BAR MENU*/
+nav{
+    background: white;
+    width: 100%;
+    height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right:  20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 20px;
+ }
+
+nav ul li a {
+	color: black;
+	font-size: 17px;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+a.active,a:hover {
+	background: #408CB2;
+	transition: 1s;
+}
+
+
+/* CONTENEUR 1 */
+.pti_conteneur {
+     display: flex;
+     margin-left: 10px;
+}
+.burger{
+	margin: 30px;
+	margin-left: 90px;
+    }
+   .souligne a.zo{
+        text-decoration: underline;
+        color: #CC9900;
+    }
+    .type{
+        width: 500px;
+        height: 250px;
+      margin: 40px;
+      
+     
+    }
+    h3.bien{
+        color: #408CB2;
+        padding-top: 30px;
+        text-align: left;
+    }
+.super{
+    color:#408CB2; 
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.papi{
+    color: silver;
+    margin-left: 20px;
+    font-size: 19px;
+}
+.contain3{
+    display: flex;
+}
+.card{
+    width: 450px;
+    height: 300px;
+    margin-right: 300px;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+.espace{
+    padding-bottom: 15px;
+    color: #408CB2;
+}
+  
+/* CONTENEUR 4*/
+
+.conteneur4 {
+display: flex;
+margin-left: 30px;
+}
+
+.carte{
+    padding-top: 50px;
+	background: white;
+	height: 400px;
+
+	width: 220px;
+	margin: 20px;
+ }
+ img{
+    height: 200px;
+    width: 100%;
+    padding-bottom: 25px;
+    }
+.ibtn{
+    background:#408CB2;
+height: 40px;
+width: 100px;
+border-radius: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+.ibtns{
+  background:#408CB2;
+height: 40px;
+width: 100px;
+border-radius: 10px 10px;
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+  margin-left: 140px;
+  position: relative;
+  bottom: 110px;
+  }
+
+button:hover{
+    background: darkblue;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pie{
+    height: 600px;
+}
+
+
+  /* FOOTER */
+  .fond{
+    background:black;
+    height: 600px;
+    margin-top: 50px;
+  }
+  .conteneur5{
+    display: flex;
+    justify-content: center;
+  }
+  .carte5{
+    margin-top: 100px;
+    margin: 10px;
+    height: 500px;
+    background: silver;
+    width: 300px;
+    
+  }
+  .carte5d{
+    margin-top: 100px;
+    margin: 10px;
+    width: 300px;
+  }
+  .carte5i{
+    margin-top: 100px;
+    margin: 10px;
+   
+ 
+    width: 300px;
+    
+  }
+  .s{
+    color: #408CB2;
+    text-align: center;
+    margin-bottom: 20px;
+   
+  }
+  .z{
+   margin:  10px;
+   color: black;
+  }
+  .bas{
+    font-weight: bolder;
+    margin: 10px;
+  }
+ .carte5c{
+    margin-top: 100px;
+    margin: 10px;
+
+    
+    width: 300px;
+    
+  }
+  .sil{
+    color: silver;
+  }
+  .b{
+    margin-top: 10px;
+    color: #408CB2;
+  }
+  .chat{
+    height: 80px;
+    width: 60px;
+   margin-top: 80px;
+   margin-left: 170px;
+  }
+  .lo{
+    height: 80px;
+    width: 60px;
+    margin-left: 200px;
+    margin-top: 1px;
+  }
+.ollu{
+  height: 100px;
+  width: 80px;
+  position: relative;
+  left: 100px;
+  bottom: 100px;
+}
+.arbre{
+  height: 120px;
+  width: 90px;
+  position: relative;
+  left: 160px;
+  bottom: 120px;
+
+}
